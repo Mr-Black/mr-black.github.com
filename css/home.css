@@ -41,7 +41,7 @@ section.content {
 .page-container
 {
   background-color: #ffe;
-  height: 70%; /* You Might Remove This */
+  /*height: 70%;*/ /* You Might Remove This */
 }
 
 .page, footer, .menu{
