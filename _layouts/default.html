@@ -1,0 +1,39 @@
+<html>
+  <head>
+
+    <!-- Google Fonts CSS -->
+    <link href='http://fonts.googleapis.com/css?family=Donegal+One' rel='stylesheet' type='text/css'>
+    <!-- End Google Fonts CSS -->
+
+    <!-- Home Page Styles -->
+    <link rel="stylesheet" href="/css/home.css" type="text/css" />
+    <!-- End Home Page Styles -->
+
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <div class="clearfix menu">
+      <div class="menu-content">
+      <h1><a href='/'>Michael Barnes</a></h1>
+      <p><a href='/'>home</a></p>
+      {% if site.posts.size > 10 %}
+      <p><a href='/archive.html'>archive</a></p>
+      {% endif %}
+      </div>
+    </div>
+    <div class="page-container">
+      <div class="page clearfix">
+      <section class="content">
+        {{ content }}
+      </section>
+      </div>
+    </div>
+    <footer class="clearfix">
+      <section class="footer-content">
+      <p>This page design was shamelessly ripped off from <a href="http://hop.ie">hop.ie</a>.</p>
+      <p>Follow me on twitter <a href="https://twitter.com/code_mr_black">@code_mr_black</a> and on github as <a href="https://github.com/Mr-Black">Mr-Black</a>.</p>
+      <p>Built using jekyll and github pages. Checkout the source <a href="https://github.com/Mr-Black/mr-black.github.com">here</a> on github.</p>
+      </section>
+    </footer>
+  </body>
+</html>

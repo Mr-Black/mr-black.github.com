@@ -1,0 +1,136 @@
+html {
+  font-size: 20px;
+  line-height: 1.5em;
+  font-family: 'Donegal One', serif;
+  text-shadow: 0 -1px 0 white;
+  color: #2C3437;
+}
+
+body {
+  margin: 0;
+  background-color: #2C3437;
+  display: block;
+}
+
+article, section
+{
+  display: block;
+}
+
+article header .date {
+  color: #888;
+  margin-top: -43px;
+}
+
+b,strong
+{
+  font-weight: bold;
+}
+
+section.content, section.footer-content
+{
+  float: left;
+  padding-right: 5%;
+  width: 100%;
+}
+
+section.content {
+  margin-bottom: 40px;
+}
+
+.page-container
+{
+  background-color: #ffe;
+  height: 70%; /* You Might Remove This */
+}
+
+.page, footer, .menu{
+  margin: 0 auto;
+  max-width: 720px;
+}
+
+.entry {
+  z-index: 4;
+}
+
+@page {
+  margin: 0.5cm;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+a {
+  color: #135;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+div {
+  display: block;
+}
+
+.clearfix {
+
+}
+
+.clearfix::before {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.menu-content {
+  margin-left: -30px;
+}
+
+.menu a
+{
+  color: #ffe;
+}
+
+.menu h1 {
+  margin: 0;
+  margin-bottom: -10px;
+  margin-left: 10px;
+  display: inline-block;
+  padding: 0;
+}
+
+.menu p {
+  display: inline-block;
+  margin: 0;
+  margin-left: 25px;
+  padding: 0;
+}
+
+footer {
+  padding-bottom: 40px;
+  z-index: 10;
+  color: #ffe;
+  text-shadow: none;
+}
+
+footer a {
+  font-weight: bold;
+  color: white;
+}
+
+footer a:hover {
+  color: #06a;
+}
+
+ul.posts {
+  list-style-type: none;
+}
+
+a.older {
+  font-size: 1.5em;
+}
