@@ -41,7 +41,7 @@ section.content {
 .page-container
 {
   background-color: #ffe;
-  /*height: 70%;*/ /* You Might Remove This */
+  min-height: 70%;
 }
 
 .page, footer, .menu{
@@ -131,6 +131,7 @@ ul.posts {
   list-style-type: none;
 }
 
-a.older {
+.older {
   font-size: 1.5em;
+  margin-top: 30px;
 }
