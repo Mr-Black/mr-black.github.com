@@ -8,7 +8,7 @@ The Five W's
 ***
 Who?
 ----
-Yo, dawg. I am Michael Barnes. I am a computer science major at Virginia Tech, and I decided to write a blog.
+Hey there. I am Michael Barnes. I am a computer science major at Virginia Tech, and I decided to write a blog.
 
 What?
 -----
